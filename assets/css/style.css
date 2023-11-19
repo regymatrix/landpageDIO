@@ -10,9 +10,9 @@ header{
     align-items: center;
     text-align: center;
     width: 100vw;
-    height: 70vh;  
+    height: 100vh;  
   
-    background-image:   url('/assets/images/banner.png'), 
+    background-image:   url('../images/banner.png'), 
                         linear-gradient(180deg, 
                                     rgb(5, 35, 48) 100%,
                                     rgba(12, 59, 160, 1) 100%
@@ -128,7 +128,7 @@ main{
     background-color: #1472B7;
     display: flex;
     align-items:center;    
-    background-image: url(/assets/images/woman-code.png);        
+    background-image: url('../images/woman-code.png');        
     background-size: 100vw 100vh;    
     background-position-y: center;
     background-blend-mode:  color #000;
