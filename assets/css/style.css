@@ -251,3 +251,34 @@ footer{
   
   }
 
+
+  @media screen and (max-width: 900px) {
+    header{  
+        width: 100vw;
+        height: 150vh; 
+               
+    }
+    #course-content{ 
+        width: 100%;  
+        height: 100vh;    
+    }
+    #course-content-box{
+        width: 90vw;
+        font-size: 1rem;    
+        margin-bottom: 2rem;
+    }
+    .banner-content button{
+        font-style: normal;          
+        font-size: 1rem;        
+        margin-top: 3rem;        
+        width: 30vw;
+        height: 3rem;
+        
+    }
+    .modules-list .module{
+        width: 20vw;
+        height: 3rem;
+        font-size: 0.8rem;        
+    }
+    
+  }
