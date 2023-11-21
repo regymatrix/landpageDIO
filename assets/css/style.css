@@ -5,6 +5,7 @@
     padding: 0px;    
 }
 header{
+    animation: header-opacity-animation 15s ease-in-out infinite;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,7 +18,23 @@ header{
                                     rgb(5, 35, 48) 100%,
                                     rgba(12, 59, 160, 1) 100%
                         );
+    opacity: 1;
     padding-bottom: 3rem;
+}
+
+@keyframes header-opacity-animation{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0.95;
+    }
+    75%{
+        opacity: 0.9;
+    }
+    100%{
+        opacity: 0.85;
+    }
 }
 
 .banner-content{
@@ -67,9 +84,12 @@ main{
     flex-direction: column;     
 }
 #course-content{ 
+    animation: gradiente-course-content 15s ease-in infinite;
     width: 100%;  
-    height: 60vh;  
-    background-color: #000; 
+    height: 70vh;  
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(18,19,107,1) 23%, rgba(101,7,98,1) 44%, rgba(255,0,112,1) 100%);
+    background-size: 200% 200%;
     display: flex;   
     justify-content: center;
     align-items: center;
@@ -281,4 +301,16 @@ footer{
         font-size: 0.8rem;        
     }
     
+  }
+
+  @keyframes gradiente-course-content{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
   }
