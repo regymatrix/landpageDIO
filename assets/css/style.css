@@ -228,6 +228,8 @@ footer{
     
 }
 
+
+
 @media screen and (max-width: 700px) {
     .imgHomem {
       width: 80vw; /* Largura de 100% para ocupar a largura total da tela */
@@ -307,7 +309,7 @@ footer{
         
     }
     .modules-list .module{
-        width: 20vw;
+        width: 50vw;
         height: 3rem;
         font-size: 0.8rem;        
     }
