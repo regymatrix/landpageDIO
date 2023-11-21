@@ -217,6 +217,17 @@ footer{
     color: #fff;
 }
 
+.imgHomem{
+    transition-duration: 3s;
+}
+
+.imgHomem:hover{
+    transform: scale(1.1);
+  
+    /* transition: ease-in-out; */
+    
+}
+
 @media screen and (max-width: 700px) {
     .imgHomem {
       width: 80vw; /* Largura de 100% para ocupar a largura total da tela */
